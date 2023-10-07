@@ -9,7 +9,7 @@ LOCATION = "eu"  # Format is 'us' or 'eu'
 PROCESSOR_ID = "e557839fc2c11c48"  # that is the test OCR processor ID
 
 # The local file in your current working directory
-FILE_PATH = "C:\Users\615358534\Downloads\Winnie_the_Pooh_3_Pages.pdf"
+FILE_PATH = "https://storage.cloud.google.com/contractbotbucket1/Winnie_the_Pooh_3_Pages.pdf"
 # Refer to https://cloud.google.com/document-ai/docs/file-types
 # for supported file types
 MIME_TYPE = "application/pdf"
