@@ -4,6 +4,9 @@
 
 # Replace YOUR_PROJECT_ID, YOUR_PROJECT_LOCATION, YOUR_PROCESSOR_ID, and the FILE_PATH with appropriate values for your environment.
 
+from google.api_core.client_options import ClientOptions
+from google.cloud import documentai
+
 PROJECT_ID = "contract-bot-397822"
 LOCATION = "eu"  # Format is 'us' or 'eu'
 PROCESSOR_ID = "e557839fc2c11c48"  # that is the test OCR processor ID
